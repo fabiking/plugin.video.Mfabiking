@@ -164,7 +164,7 @@ def main_list(params):
     try:
         data = plugintools.read(mastermenu)
     except:
-        mastermenu = 'http://pastebin.com/raw.php?i=RBEDZWqN'
+        mastermenu = 'http://pastebin.com/raw.php?i=ydUjKXnN'
         data = plugintools.read(mastermenu)
         xbmc.executebuiltin("Notification(%s,%s,%i,%s)" % ('PalcoTV', "XML no reconocido...", 3 , __art__+'icon.png'))
 
@@ -5826,7 +5826,7 @@ def xml_skin():
             id_pastebin = plugintools.get_setting("id_pastebin")
             if id_pastebin == "":
                 plugintools.log("[PalcoTV.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=RBEDZWqN'
+                mastermenu = 'https://dl.dropboxusercontent.com/u/8036850/PalcoTV/PalcoTV-0.3.3.xml'
             else:
                 mastermenu = 'http://pastebin.com/raw.php?i=' +id_pastebin
                 plugintools.log("[PalcoTV.xml_skin: "+mastermenu)
