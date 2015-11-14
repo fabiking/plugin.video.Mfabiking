@@ -128,7 +128,7 @@ from resources.tools.livesoccertv import *
 
 # Entry point
 def run():
-    plugintools.log('[%s %s] ---> MFabiking.run <--- ' % (addonName, addonVersion))
+    plugintools.log('[%s %s] ---> PalcoTV.run <--- ' % (addonName, addonVersion))
     
     plugintools.log("")
     plugintools.modo_vista("list")
