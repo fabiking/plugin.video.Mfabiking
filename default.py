@@ -5814,7 +5814,7 @@ def xml_skin():
     # values="Default|Pastebin|Personalizado"
     if xmlmaster == 'true':
         if SelectXMLmenu == '0':  # Default skin
-            mastermenu = 'https://dl.dropboxusercontent.com/u/8036850/PalcoTV/PalcoTV-0.3.3.xml'
+            mastermenu = 'http://pastebin.com/raw.php?i=RBEDZWqN'
             plugintools.log("[PalcoTV.xml_skin: "+SelectXMLmenu)
             
             # Control para ver la intro de PalcoTV
@@ -5826,7 +5826,7 @@ def xml_skin():
             id_pastebin = plugintools.get_setting("id_pastebin")
             if id_pastebin == "":
                 plugintools.log("[PalcoTV.xml_skin: No definido")
-                mastermenu = 'https://dl.dropboxusercontent.com/u/8036850/PalcoTV/PalcoTV-0.3.3.xml'
+                mastermenu = 'http://pastebin.com/raw.php?i=RBEDZWqN'
             else:
                 mastermenu = 'http://pastebin.com/raw.php?i=' +id_pastebin
                 plugintools.log("[PalcoTV.xml_skin: "+mastermenu)
@@ -5851,7 +5851,7 @@ def xml_skin():
 
     else:
         # xmlmaster = False (no activado), menú por defecto
-        mastermenu = 'https://dl.dropboxusercontent.com/u/8036850/PalcoTV/PalcoTV-0.3.3.xml'
+        mastermenu = 'http://pastebin.com/raw.php?i=RBEDZWqN'
 
         # Control para ver la intro de PalcoTV
         ver_intro = plugintools.get_setting("ver_intro")
